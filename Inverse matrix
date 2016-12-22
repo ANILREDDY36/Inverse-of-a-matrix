@@ -18,12 +18,12 @@ makeMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## this function inverses the matrix
 
 Solve <- function(x, ...) {
       m <- x$getinverse()
       if(!is.null(m)) {
-            message("getting cached data")
+            message("getting given data")
             return(m)
       }
       data <- x$get()
